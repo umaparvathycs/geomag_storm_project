@@ -599,7 +599,7 @@ st.write(
 tabs = st.tabs([
     "🌍 Live Monitoring",
     "⚡ 9-Hour Early Warning",
-    "📋 Living Storm Catalogue",
+    "📋 Storm Catalogue",
     "🧠 1D-CNN Hourly Performance",
     "🔄 Kyoto Auto-Updater"
 ])
