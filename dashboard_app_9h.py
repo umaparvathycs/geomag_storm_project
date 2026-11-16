@@ -52,7 +52,7 @@ FIGURES_DIR = ROOT / "outputs/figures"
 MODEL_9H_PATH = ROOT / "outputs/models/early_warning_model_9h_rebuilt.joblib"
 SCALER_9H_PATH = ROOT / "outputs/models/early_warning_scaler_9h_rebuilt.joblib"
 
-METRICS_9H_PATH = ROOT / "outputs/metrics/early_warning_summary_9h.json"
+METRICS_9H_PATH = ROOT / "outputs/metrics/early_warning_summary_9h_rebuilt.json"
 METRICS_9H_TEST_PATH = ROOT / "outputs/metrics/early_warning_summary_9h_test.json"
 
 
