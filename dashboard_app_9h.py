@@ -588,7 +588,7 @@ st.sidebar.warning(
 # ------------------------------------------------------------
 
 st.title(
-    "🛰️ Geomagnetic Storm Monitor and Early Warning System"
+    "🛰️ Geomagnetic Storm Monitor "
 )
 
 st.write(
