@@ -1,0 +1,126 @@
+{
+    "model": "Gradient Boosting",
+    "observation_window_hours": 9,
+    "number_of_features": 16,
+    "training_storms": 4184,
+    "validation_storms": 383,
+    "validation_accuracy": 0.8929503916449086,
+    "validation_macro_f1": 0.7933619321854616,
+    "validation_weighted_f1": 0.888299020899236,
+    "confusion_matrix": [
+        [
+            259,
+            7,
+            1
+        ],
+        [
+            22,
+            72,
+            1
+        ],
+        [
+            2,
+            8,
+            11
+        ]
+    ],
+    "classification_report": {
+        "Weak": {
+            "precision": 0.9151943462897526,
+            "recall": 0.9700374531835206,
+            "f1-score": 0.9418181818181818,
+            "support": 267.0
+        },
+        "Moderate": {
+            "precision": 0.8275862068965517,
+            "recall": 0.7578947368421053,
+            "f1-score": 0.7912087912087912,
+            "support": 95.0
+        },
+        "Intense+": {
+            "precision": 0.8461538461538461,
+            "recall": 0.5238095238095238,
+            "f1-score": 0.6470588235294118,
+            "support": 21.0
+        },
+        "accuracy": 0.8929503916449086,
+        "macro avg": {
+            "precision": 0.8629781331133834,
+            "recall": 0.7505805712783832,
+            "f1-score": 0.7933619321854616,
+            "support": 383.0
+        },
+        "weighted avg": {
+            "precision": 0.8896783573988698,
+            "recall": 0.8929503916449086,
+            "f1-score": 0.888299020899236,
+            "support": 383.0
+        }
+    },
+    "feature_importance": [
+        {
+            "feature": "min_9h",
+            "importance": 0.687403567892114
+        },
+        {
+            "feature": "dst_9h",
+            "importance": 0.08102899954904978
+        },
+        {
+            "feature": "dst_8h",
+            "importance": 0.028808235172545524
+        },
+        {
+            "feature": "volatility_9h",
+            "importance": 0.02713801425653566
+        },
+        {
+            "feature": "dst_7h",
+            "importance": 0.020404423051771862
+        },
+        {
+            "feature": "accel_9h",
+            "importance": 0.01931820583294989
+        },
+        {
+            "feature": "dst_6h",
+            "importance": 0.01811724664939032
+        },
+        {
+            "feature": "mean_9h",
+            "importance": 0.016535364304524933
+        },
+        {
+            "feature": "dst_5h",
+            "importance": 0.015610247490174879
+        },
+        {
+            "feature": "drop_9h",
+            "importance": 0.015389346402334098
+        },
+        {
+            "feature": "dst_3h",
+            "importance": 0.014516835547324367
+        },
+        {
+            "feature": "dst_2h",
+            "importance": 0.013507723224758348
+        },
+        {
+            "feature": "slope_9h",
+            "importance": 0.011332763638220302
+        },
+        {
+            "feature": "dst_0h",
+            "importance": 0.01070553987289002
+        },
+        {
+            "feature": "dst_4h",
+            "importance": 0.01036511814693159
+        },
+        {
+            "feature": "dst_1h",
+            "importance": 0.009818368968484346
+        }
+    ]
+}
